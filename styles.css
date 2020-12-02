@@ -192,7 +192,7 @@
 /* how to play */
 .htp-container{
     top: 15%;
-    background-color: tomato;
+    background-color: #00FF7F;
     height: 70%;
     z-index: 2;
 }
@@ -200,7 +200,7 @@
     display: none;
 }
 .overlay{
-    opacity: 0.5;
+    opacity: 0.6;
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -219,4 +219,40 @@
     position: absolute;
     left: 45%;
     bottom: 1px;
+}
+body{
+    background-color: green;
+}
+/* material-costs */
+.mats-label{
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.wood-label{
+    color: saddlebrown;
+}
+.stone-label{
+    color: grey;
+}
+.gold-label{
+    color: gold;
+}
+.costs-container{
+    width: 100px;
+    height: 50px;
+    background-color: #00FF7F;
+    position: absolute;
+    bottom: 100px;
+}
+.wood-costs{
+    left: 0;
+}
+.stone-costs{
+    left: 100px;
+}
+.gold-costs{
+    left: 200px;
+}
+.tower-costs{
+    left: 300px;
 }
