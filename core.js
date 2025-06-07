@@ -110,7 +110,7 @@ function gameloop(){
 
             //console.log(ID);
             ID = 'a' + ID;
-            let img = '<img id="'+ID+'" class="enemy" src="https://mpng.subpng.com/20180330/igw/kisspng-drawing-clip-art-fireball-5abdbeb8e079e0.7271173215223845689195.jpg" alt=""></img>';
+            let img = '<img id="'+ID+'" class="enemy" src="https://subpng.com/images/high/red-flame-icon-gjz9q73wlqve1aos.webp" alt=""></img>';
             $("body").prepend(img);
             data.enemies.push(new Enemy(ID));
             if(i<data.i/200){
